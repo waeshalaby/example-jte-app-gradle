@@ -8,6 +8,9 @@
 */
 libraries{
   gradle
+  sonarqube{
+    field = "should be ignored" 
+  }
 }
 
 application_environments{
