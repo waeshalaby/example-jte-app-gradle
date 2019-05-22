@@ -9,3 +9,11 @@
 libraries{
   gradle
 }
+
+application_environments{
+  dev
+  test{
+    short_name = "Test"
+    randomField = true
+  }
+}
